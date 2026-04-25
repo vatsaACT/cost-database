@@ -1,0 +1,8 @@
+services:
+  relational_database:
+    image: postgres
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_PASSWORD: mypassword
+      POSTGRES_USER: postgres
